@@ -1,48 +1,28 @@
-<<<<<<< HEAD
-# Run
+netease
 
-## install
+A Vue.js project
 
-```
-$ npm install
-```
+Build Setup
 
-## run web
+    # install dependencies
+    npm install
+    
+    # serve with hot reload at localhost:8080
+    npm run dev
+    
+    # build for production with minification
+    npm run build
+    
+    # build for production and view the bundle analyzer report
+    npm run build --report
+    
+    # run unit tests
+    npm run unit
+    
+    # run e2e tests
+    npm run e2e
+    
+    # run all tests
+    npm test
 
-building web pro
-
-```
-$ npm run build 
-```
-
-building web pro & running service
-
-```
-$ npm run dev & npm run serve 
-```
-
-## run ios
-
-ios packaging requires developer accounts, f not, you can only install it on your own connected iphone through xcode debugging, or virtual machine。
-
-The following is the implementation of the non-developer account
-
-install ios platform
-
-```
-$ weexpack platform add ios
-```
-
-build weex bundles
-
-```
-$ weex build ios
-```
-
-This step is only for packaging, not fully executed, cancel before you enter the bundle id。
-
-further info [https://segmentfault.com/a/1190000010984857](https://segmentfault.com/a/1190000010984857#articleHeader14)
-
-next, use xcode to debug, refer to the native debug step.
-
-# netease-yanxuan
+For a detailed explanation on how things work, check out the guide and docs for vue-loader.
